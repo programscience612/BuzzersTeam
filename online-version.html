@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buzzer Wire Game - Online Version</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Buzzer Wire Game</h1>
+      <nav>
+        <div class="menu-toggle">☰</div>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="how-to-play.html">How to Play</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="variations.html">Variations</a></li>
+          <li><a href="educational-value.html">Educational Value</a></li>
+          <li><a href="tips.html">Tips & Tricks</a></li>
+          <li><a href="diy.html">DIY Build</a></li>
+          <li><a href="online-version.html">Online Version</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Play Online Version</h2>
+    <p>Try a simple digital simulation below. Move your mouse to guide the ring!</p>
+    <div id="game-container">
+      <svg id="wire-svg" viewBox="0 0 960 560" preserveAspectRatio="xMidYMid meet">
+        <path d="M 130,280 Q 240,110 380,290 T 580,270 Q 700,430 820,270 T 920,290 Q 830,130 680,280 T 580,270" 
+              fill="none" stroke="#00eaff" stroke-width="22" stroke-linecap="round"/>
+      </svg>
+      <div id="ring"></div>
+      <div id="start-zone" class="zone"></div>
+      <div id="end-zone" class="zone"></div>
+    </div>
+    <div id="status">Press START to play</div>
+    <div class="controls">
+      <button id="startBtn">START</button>
+      <button id="resetBtn">RESET</button>
+    </div>
+    <p>Note: This is a basic JS demo. For full games, check apps or build your own.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Buzzer Wire Game Info. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
